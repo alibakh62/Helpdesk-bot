@@ -1,0 +1,69 @@
+[
+  {
+    "Time": 1576560960525,
+    "URL": "https://www.wikihow.com/install-microsoft-office-2007-on-linux",
+    "MainTask": "How to Install Microsoft Office 2007 on Linux",
+    "MainTaskSummary": "Sometimes LibreOffice, OpenOffice and other office suites won't work exactly as you want with Microsoft Office. When that happens you can either choose to work on a Windows system or you can install Microsoft Office on Linux. This article will teach you how to install Microsoft Office 2007 on Linux using Wine.",
+    "Steps": [
+      {
+        "Headline": "Install Wine .",
+        "Description": "Wine is a compatibility layer for running Windows applications on non-Windows POSIX-compliant operating systems. If you're using Ubuntu, learn how to install Wine on Ubuntu.",
+        "Links": []
+      },
+      {
+        "Headline": "Open Wine configuration.",
+        "Description": "Configuration needs to be performed in order for Microsoft PowerPoint to work.",
+        "Links": []
+      },
+      {
+        "Headline": "Select Libraries tab.",
+        "Description": "",
+        "Links": []
+      },
+      {
+        "Headline": "Override riched20 DLL.",
+        "Description": "Select dropbox under \"New override for library\" label, search for and select riched20.",
+        "Links": []
+      },
+      {
+        "Headline": "Edit riched20 DLL.",
+        "Description": "Select riched20 under \"Existing overrides\" label and press Edit... button.",
+        "Links": []
+      },
+      {
+        "Headline": "Select native load order.",
+        "Description": "Select Native (Windows) load order radio button and press OK button.",
+        "Links": []
+      },
+      {
+        "Headline": "Apply load order change.",
+        "Description": "Press Apply button to save and apply change to DLL load order.",
+        "Links": []
+      },
+      {
+        "Headline": "Run installation executable.",
+        "Description": "Locate your installation files and double-click setup.exe. If double-clicking doesn't work, right click the executable file and select Open with Wine Windows Program Loader. If it still doesn't work, make sure it has permission to run. Right-click the executable file, select Properties and check Allow executing file as program under Permissions.",
+        "Links": []
+      },
+      {
+        "Headline": "Install Microsoft Office 2007 .",
+        "Description": "Install the office suite as if you were running Windows machine. Following the installation wizard will leave you with a functional Microsoft Office 2007 installation.",
+        "Links": []
+      }
+    ],
+    "Categories": [
+      "Computers and Electronics",
+      "Software",
+      "Office",
+      "Microsoft Office"
+    ],
+    "Ingredients": [],
+    "Requirements": [],
+    "Tips": [
+      "If it is Home and Student Edition you will need to activate it, but this can be done over the internet even in Linux.",
+      "Keep default installation directory for best results."
+    ],
+    "Views": 41321,
+    "AuthorsCount": 14
+  }
+]
