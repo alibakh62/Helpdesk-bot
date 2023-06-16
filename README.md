@@ -35,6 +35,6 @@ Here's an example of the bot output answering the question "How to install MS Of
  'machine.')
 ```
 
-Change the file name to `wikiHow0.json` to get the bot to answer other different questions.
+Change the file name to `wikiHow0.json` to get the bot to answer other different questions. You can download the file from [here](https://drive.google.com/file/d/1uHBrFv-JI4BhcrmGXV_a9bS3W-RweXfn/view?usp=sharing).
 
 
